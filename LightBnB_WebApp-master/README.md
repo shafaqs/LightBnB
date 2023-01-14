@@ -1,5 +1,5 @@
 # LightBnB
-
+A multi-page Airbnb clone that uses server-side Javascript to display the information from queries to web pages via SQL queries. Has the functionalities of being able to create accounts, view other listings, create own listing, and filtering though results.
 ## Project Structure
 
 ```
@@ -41,3 +41,11 @@
   * `apiRoutes.js` and `userRoutes.js` are responsible for any HTTP requests to `/users/something` or `/api/something`. 
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
+
+
+  
+  Getting started
+Clone your repository onto your local device.
+Install dependencies using the npm install command within the LightBnB_WebApp-master directory.
+Start the web server using the npm run local command. The app will be served at http://localhost:3000/.
+Go to http://localhost:3000/ in your browser.
