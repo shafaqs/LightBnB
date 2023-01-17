@@ -14,27 +14,4 @@ Run the app by running the npm run local command.
 View the app in your web browser at localhost:3000.
 NOTE: If you're having trouble, you may need to have npx installed first. Try running the command npm install -g npx.
 
-# Project Structure
-├── public
-│   ├── index.html
-│   ├── javascript
-│   │   ├── components 
-│   │   │   ├── header.js
-│   │   │   ├── login_form.js
-│   │   │   ├── new_property_form.js
-│   │   │   ├── property_listing.js
-│   │   │   ├── property_listings.js
-│   │   │   ├── search_form.js
-│   │   │   └── signup_form.js
-│   │   ├── index.js
-│   │   ├── libraries
-│   │   ├── network.js
-│   │   └── views_manager.js
-│   └── styles
-├── sass
-└── server
-  ├── apiRoutes.js
-  ├── database.js
-  ├── json
-  ├── server.js
-  └── userRoutes.js
+
