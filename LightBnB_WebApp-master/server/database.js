@@ -147,7 +147,7 @@ const getAllProperties = function(options, limit = 10) {
   if (options.minimum_rating) {
     queryParams.push(`${options.minimum_rating}`);
     queryString += (`
-    HAVING AVG(property_reviews.rating) > $${queryParams.length} `);
+    HAVING AVG(property_reviews.rating) >= $${queryParams.length} `);
   }
   queryParams.push(limit);
   queryString += `
